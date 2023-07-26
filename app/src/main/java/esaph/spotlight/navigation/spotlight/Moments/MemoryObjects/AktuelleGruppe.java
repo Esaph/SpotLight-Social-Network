@@ -85,10 +85,7 @@ public class AktuelleGruppe
         isSelected = selected;
     }
 
-    public boolean isSelectedHurensohn()
-    {
-        return isSelected;
-    }
+
 
     public void setBeitragAnzahl(String BeitragAnzahl)
     {

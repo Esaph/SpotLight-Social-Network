@@ -31,10 +31,7 @@ public class MemoryPostSingle
         isSelected = selected;
     }
 
-    public boolean isSelectedHurensohn()
-    {
-        return isSelected;
-    }
+
 
     public void setBeitragAnzahl(String BeitragAnzahl)
     {

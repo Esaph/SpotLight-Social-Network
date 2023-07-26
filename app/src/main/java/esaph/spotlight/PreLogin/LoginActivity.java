@@ -232,7 +232,7 @@ public class LoginActivity extends AppCompatActivity
 
     private void signIn()
     {
-        final DialogAcceptPreLoginLaw hurensohndialog = new DialogAcceptPreLoginLaw(LoginActivity.this, new DialogAcceptPreLoginLaw.ShitAcceptingInterface()
+        final DialogAcceptPreLoginLaw dialogAcceptPreLoginLaw = new DialogAcceptPreLoginLaw(LoginActivity.this, new DialogAcceptPreLoginLaw.ShitAcceptingInterface()
         {
             @Override
             public void onAcceptedShitRules()
@@ -248,8 +248,8 @@ public class LoginActivity extends AppCompatActivity
             public void onDeclinedShitRules() {
             }
         });
-        hurensohndialog.setCanceledOnTouchOutside(false);
-        hurensohndialog.show();
+        dialogAcceptPreLoginLaw.setCanceledOnTouchOutside(false);
+        dialogAcceptPreLoginLaw.show();
     }
 
     private void openRegisterButton(final View v)

@@ -174,7 +174,7 @@ public class ArrayAdapterPrivateChat extends BaseAdapter implements UploadServic
         listView.setBlockLayoutChildren(false);// finally set item selection
         listView.setSelection(listView.getCount());
 
-        System.out.println("HURENPOSITION: " + (savedPosition + conversationMessages.size()));
+        System.out.println("POS: " + (savedPosition + conversationMessages.size()));
 
 
 

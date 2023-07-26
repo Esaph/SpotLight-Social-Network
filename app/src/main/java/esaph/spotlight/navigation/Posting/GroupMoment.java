@@ -40,10 +40,6 @@ public class GroupMoment
         isSelected = selected;
     }
 
-    public boolean isSelectedHurensohn()
-    {
-        return isSelected;
-    }
 
     public String getGroupName()
     {

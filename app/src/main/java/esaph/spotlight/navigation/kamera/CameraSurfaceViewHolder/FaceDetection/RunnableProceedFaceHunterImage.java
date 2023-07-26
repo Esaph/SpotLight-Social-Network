@@ -187,7 +187,6 @@ public class RunnableProceedFaceHunterImage implements Runnable
         paintDrawingRounded.setAntiAlias(true);
 
         //canvas.drawRect(left, top, right, bottom, paintDrawingRounded);
-        // TODO: 27.04.2019 moving shit
 
         canvas.drawCircle(x,
                 y,

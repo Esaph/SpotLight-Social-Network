@@ -13,13 +13,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
+
 import esaph.spotlight.R;
-import esaph.spotlight.rechtliches.Haftungsauschluss;
 import esaph.spotlight.rechtliches.Datenschutz;
+import esaph.spotlight.rechtliches.Haftungsauschluss;
 
 public class DialogAcceptPreLoginLaw extends Dialog
 {
@@ -29,7 +30,7 @@ public class DialogAcceptPreLoginLaw extends Dialog
     public DialogAcceptPreLoginLaw(@NonNull Context context, ShitAcceptingInterface shitAcceptingInterface)
     {
         super(context);
-        setContentView(R.layout.layout_hurensohn);
+        setContentView(R.layout.layout_dialog_pre_login_view);
 
         if(getWindow() != null)
         {
