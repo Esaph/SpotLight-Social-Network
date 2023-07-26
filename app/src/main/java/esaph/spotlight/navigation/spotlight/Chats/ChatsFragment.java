@@ -14,7 +14,6 @@ import android.content.BroadcastReceiver;
 import android.content.ContentResolver;
 import android.content.ContentUris;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
@@ -32,7 +31,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -660,13 +658,16 @@ public class ChatsFragment extends EsaphGlobalCommunicationFragment
         public void onMomentsSynchFailed()
         {
             Log.i(getClass().getName(), "On Moments update failed.");
+            /*
             if(getActivity() != null)
             {
+
                 final AlertDialog d = new AlertDialog.Builder(getActivity())
                         .setTitle(getResources().getString(R.string.txt__alertLogIn))
                         .setPositiveButton(getResources().getString(R.string.txt_alertDbPositiveButtonTryAgain), null) //Set to null. We override the onclick
                         .setNegativeButton(getResources().getString(R.string.txt_alertCountryDbDetailsCancel), null)
                         .setMessage(getResources().getString(R.string.txt_alertLogInFriendSyncFailed)).create();
+
 
                 d.setOnShowListener(new DialogInterface.OnShowListener()
                 {
@@ -709,7 +710,9 @@ public class ChatsFragment extends EsaphGlobalCommunicationFragment
                 d.setCanceledOnTouchOutside(true); // TODO: 09.03.2020 change this to false
                 d.setCancelable(true);
                 d.show();
-            }
+            }*/
+
+            // TODO: 22.06.2020 uncomment this
         }
     };
 

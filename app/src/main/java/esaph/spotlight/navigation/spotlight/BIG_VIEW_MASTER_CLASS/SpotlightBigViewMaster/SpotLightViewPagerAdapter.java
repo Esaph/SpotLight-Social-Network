@@ -18,7 +18,7 @@ import android.view.ViewGroup;
 import java.util.List;
 
 import esaph.spotlight.EsaphGlobalCommunicationFragment;
-import esaph.spotlight.navigation.EmptyFragmentHURENSOHN;
+import esaph.spotlight.navigation.EmptyFragment;
 import esaph.spotlight.navigation.globalActions.CMTypes;
 import esaph.spotlight.navigation.spotlight.BIG_VIEW_MASTER_CLASS.ViewPagerAdapterGetList;
 import esaph.spotlight.navigation.spotlight.BIG_VIEW_MASTER_CLASS.ViewPagerDataSetChangedListener;
@@ -193,7 +193,7 @@ public class SpotLightViewPagerAdapter extends ViewPagerAdapterGetList
         }
         else if(object instanceof TitleList)
         {
-            return new EmptyFragmentHURENSOHN();
+            return new EmptyFragment();
         }
         return null;
     }

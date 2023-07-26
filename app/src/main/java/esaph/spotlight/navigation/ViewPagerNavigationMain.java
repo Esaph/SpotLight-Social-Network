@@ -28,7 +28,7 @@ public class ViewPagerNavigationMain extends FragmentStatePagerAdapter
     private EsaphGlobalCommunicationFragment currentFragment = null;
     private FragmentNavigationRightSite fragmentNavigationRightSite;
     private static int PageCount = 2;
-    private EmptyFragmentHURENSOHN emptyFragment;
+    private EmptyFragment emptyFragment;
     private FragmentManager fragmentManager;
     private Context context;
 
@@ -55,7 +55,7 @@ public class ViewPagerNavigationMain extends FragmentStatePagerAdapter
     {
         super(manager);
         this.fragmentManager = manager;
-        this.emptyFragment = new EmptyFragmentHURENSOHN();
+        this.emptyFragment = new EmptyFragment();
         this.context = context;
     }
 
@@ -91,7 +91,7 @@ public class ViewPagerNavigationMain extends FragmentStatePagerAdapter
             case POSITION_CAMERA:
                 if(emptyFragment == null)
                 {
-                    emptyFragment = new EmptyFragmentHURENSOHN();
+                    emptyFragment = new EmptyFragment();
                 }
                 return emptyFragment;
 

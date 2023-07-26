@@ -11,7 +11,6 @@ package esaph.spotlight;
 import android.app.Application;
 import android.content.Context;
 
-import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;
 
 public class Spotlight extends Application
@@ -26,6 +25,8 @@ public class Spotlight extends Application
     @Override
     public void onCreate() {
         super.onCreate();
-        refWatcher = LeakCanary.install(this);
+        //refWatcher = LeakCanary.install(this);
+
+        // TODO: 22.06.2020 for finding leaks
     }
 }

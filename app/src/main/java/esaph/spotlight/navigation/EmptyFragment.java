@@ -21,7 +21,7 @@ import androidx.annotation.Nullable;
 import esaph.spotlight.EsaphGlobalCommunicationFragment;
 import esaph.spotlight.R;
 
-public class EmptyFragmentHURENSOHN extends EsaphGlobalCommunicationFragment
+public class EmptyFragment extends EsaphGlobalCommunicationFragment
 {
     @Override
     public boolean onActivityDispatchedBackPressed()

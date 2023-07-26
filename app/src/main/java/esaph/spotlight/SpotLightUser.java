@@ -8,11 +8,13 @@
 
 package esaph.spotlight;
 
-import java.io.Serializable;
-
 import androidx.annotation.Nullable;
 
-public class SpotLightUser implements Serializable
+import java.io.Serializable;
+
+import esaph.elib.esaphcommunicationservices.PipeData;
+
+public class SpotLightUser extends PipeData<SpotLightUser> implements Serializable
 {
     private long UID;
     private String Benutzername;

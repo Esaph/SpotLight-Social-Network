@@ -17,7 +17,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import esaph.spotlight.navigation.EmptyFragmentHURENSOHN;
+import esaph.spotlight.navigation.EmptyFragment;
 import esaph.spotlight.navigation.globalActions.CMTypes;
 import esaph.spotlight.navigation.spotlight.PublicPostsNavigation.Model.PublicConversationMessage;
 import esaph.spotlight.navigation.spotlight.PublicPostsNavigation.PublicHome.DisplayingFragment.PictureFragmentPublic;
@@ -71,7 +71,7 @@ public class ViewPagerAdapterPublicHome extends FragmentStatePagerAdapter
             return VideoFragmentPublic.getInstance(publicConversationMessage);
         }
 
-        return new EmptyFragmentHURENSOHN();
+        return new EmptyFragment();
     }
 
     @Override
