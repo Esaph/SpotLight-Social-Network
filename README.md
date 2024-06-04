@@ -26,7 +26,6 @@ https://github.com/Esaph/SpotLight-EsaphServerCrawler<br/><br/>
 
 
 ![device-2019-02-13-234844](https://user-images.githubusercontent.com/61155778/76707786-8e13c300-66f2-11ea-8c34-0156dce69226.png)
-![device-2019-02-14-002907](https://user-images.githubusercontent.com/61155778/76707788-8eac5980-66f2-11ea-9c9e-670477e176c8.png)
 ![device-2019-02-14-002723](https://user-images.githubusercontent.com/61155778/76707789-8f44f000-66f2-11ea-8ff5-0c16e611a1ee.png)
 ![screenshot_20200315-191631_spo](https://user-images.githubusercontent.com/61155778/76707791-90761d00-66f2-11ea-9bdd-96658a6b2446.jpg)
 ![device-2019-02-13-235240](https://user-images.githubusercontent.com/61155778/76707792-90761d00-66f2-11ea-832f-aa3f386e3ed1.png)
